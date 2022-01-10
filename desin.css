@@ -1,0 +1,58 @@
+div {
+  margin-top: 30px;
+  width: 70%;
+  margin: auto;
+  border: 2px solid rgb(145, 84, 6);
+  height: 550px;
+  justify-content: center;
+  background: linear-gradient(to bottom, rgb(233, 180, 100), white);
+}
+table {
+  margin: auto;
+  margin-top: 50px;
+  width: 90%;
+}
+td {
+  width: 25%;
+  height: 80px;
+  box-sizing: border-box;
+  border: 2px solid rgb(223, 154, 52);
+  line-height: 80px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 35px;
+}
+button {
+  background: linear-gradient(to top, rgb(233, 180, 100), white);
+  width: 100%;
+  height: 100%;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+#ce {
+  margin: auto;
+  width: 30%;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid rgb(233, 180, 100);
+  font-size: 27px;
+  margin-top: 15px;
+  margin-left: 35%;
+}
+@media screen and (min-width: 800px) {
+  div {
+    width: 40%;
+  }
+}
+div .num:active {
+  background: linear-gradient(to top, white, rgb(233, 180, 100)) !important;
+}
+.board {
+  font-size: 22px;
+}
